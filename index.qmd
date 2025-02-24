@@ -170,7 +170,23 @@ plt.title("Line Chart of Normal Distribution Samples")
 plt.legend()
 plt.show()
 ```
+```py
+# Probability density function (PDF) at a specific value
+print("Probability of 0:", normal_dist.prob(0.).numpy())
 
+# Log probability is often used in machine learning
+print("Log probability of 0:", normal_dist.log_prob(0.).numpy())
+```
+```py
+# Generate synthetic data
+np.random.seed(42)
+x_train = np.linspace(-3, 3, 100).astype(np.float32)
+y_train = 2 * x_train + np.random.normal(0, 1, size=x_train.shape).astype(np.float32)
+
+plt.scatter(x_train, y_train, label="Data")
+plt.legend()
+plt.show()
+```
 
 
 
