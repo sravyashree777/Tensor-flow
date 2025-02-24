@@ -5,11 +5,26 @@ project:
 website:
   title: "Quarto Template"
   navbar:
-    right:
-      - href: index.qmd
-        text: Home
-      - href: blog.qmd
-        text: Blog
+  right:
+      - href: index.qmd#Title
+        text: Title
+      - href: index.qmd#Introduction
+        text: Introduction
+      - href: index.qmd#Installation-Setup
+        text: Installation and Setup
+      - href: index.qmd#Key-Features-Explanation
+        text: Key Features and explanation
+      - href: index.qmd#Code-Examples
+        text: Code Examples
+      - href: index.qmd#Screenshots
+        text: Screenshots
+      - href: index.qmd#Use-Cases
+        text: Use Cases
+      - href: index.qmd#Conclusion
+        text: Conclusion
+      - href: index.qmd#References-Further-Reading
+        text: References Further Reading
+    
 
 
 format:
