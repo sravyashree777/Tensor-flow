@@ -237,5 +237,13 @@ Its native integration with TensorFlow provides scalability, GPU acceleration, a
 # References & Further Reading {#References-Further-Reading}
 
 [GitHub Repository for TensorFlow Probability](https://github.com/tensorflow/probability)
+
+[TensorFlow Probability Overview](https://www.tensorflow.org/probability)
+
+[TensorFlow Probability Distributions Guide](https://www.tensorflow.org/probability/api_docs/python/tfp/distributions)
+
+[TFP distributions](https://www.tensorflow.org/probability/examples/TensorFlow_Distributions_Tutorial)
+
+[GitHub Repository for TensorFlow Probability](https://github.com/tensorflow/probability)
 ---
 Quarto template Text!
