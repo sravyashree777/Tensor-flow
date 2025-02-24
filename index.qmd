@@ -10,7 +10,7 @@ A Powerful Library for Probabilistic Modeling and Inference
 
 # Introduction {#Introduction}
 
-TensorFlow Probability (TFP) is an open-source software library on TensorFlow for probabilistic modeling and statistical inference. TFP is a complete toolkit for probability distributions, uncertainty estimation, and Bayesian machine learning.
+TensorFlow Probability (TFP) is an open-source software library on TensorFlow for probabilistic modeling and statistical inference. TFP provides powerful tools for probability distributions, uncertainty estimation, and Bayesian machine learning.
 
 In conventional deep learning, models tend to produce deterministic predictions, where they provide one value without considering uncertainty. Yet in real-world domains such as finance, medicine, and robotics, uncertainty matters. TensorFlow Probability assists by making probabilistic reasoning possible, which enables models to provide estimates of confidence levels and make better-informed decisions.
 ---
@@ -37,6 +37,16 @@ the other way to intall it is
 ---
 
 # Key Features & Explanation {#Key-Features-Explanation}
+
+## Probability Distributions
+
+TFP provides extensive support for built-in probability distributions, such as:
+
+* **Discrete Distributions:** Bernoulli, Categorical, Poisson
+
+* **Continuous Distributions:** Normal (Gaussian), Exponential, Beta, Gamma
+
+* **Multivariate Distributions:** Multivariate Normal, Dirichlet
 
 ---
 
