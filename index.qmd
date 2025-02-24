@@ -55,8 +55,19 @@ These distributions assist in the characterization of random variables, represen
 
 Bayesian inference updates belief from data based on observations applying Bayes' Theorem. TFP makes available such tools as Bayesian Neural Networks (BNNs) to use in deep learning the uncertainty.
 
-**Uses:**
+**Uses:** 
 As opposed to other neural networks that yield point estimates, Bayesian models in TFP produce probability distributions over outcomes, enhancing decision-making in environments where there is uncertainty.
+
+## 3. Markov Chain Monte Carlo (MCMC)
+
+MCMC is a sampling algorithm for complex probability distributions. TFP offers fast implementations such as:
+
+* Hamiltonian Monte Carlo (HMC)
+
+* No-U-Turn Sampler (NUTS)
+
+**Uses:** 
+MCMC enables the estimation of posterior distributions if direct computation is not feasible, and thus it is a tool for Bayesian inference.
 ---
 
 # Code Examples {#Code-Examples}
