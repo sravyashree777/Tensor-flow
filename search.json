@@ -25,6 +25,6 @@
     "href": "index.html",
     "title": "Tensor flow probability",
     "section": "",
-    "text": "Title\n\n\n\nIntroduction\n\n\n\nInstallation & Setup\n\n\n\nKey Features & Explanation\n\n\n\nCode Examples\n\n\n\nScreenshots\n\n\n\nUse Cases\n\n\n\nConclusion\n\n\n\nReferences & Further Reading\n\nQuarto template Text!"
+    "text": "Title\n##TensorFlow Probability A Powerful Library for Probabilistic Modeling and Inference\n\n\n\nIntroduction\n\n\n\nInstallation & Setup\n\n\n\nKey Features & Explanation\n\n\n\nCode Examples\n\n\n\nScreenshots\n\n\n\nUse Cases\n\n\n\nConclusion\n\n\n\nReferences & Further Reading\n\nQuarto template Text!"
   }
 ]
