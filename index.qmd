@@ -113,8 +113,14 @@ This renders TFP scalable, efficient, and simple to use with deep learning model
 ---
 
 # Code Examples {#Code-Examples}
+```py
+import tensorflow as tf
+import tensorflow_probability as tfp
+import numpy as np
+import matplotlib.pyplot as plt
 
-
+tfd = tfp.distributions  # Alias for TensorFlow Probability distributions
+```
 ---
 
 # Screenshots {#Screenshots}
