@@ -236,5 +236,6 @@ Its native integration with TensorFlow provides scalability, GPU acceleration, a
 
 # References & Further Reading {#References-Further-Reading}
 
+[GitHub Repository for TensorFlow Probability](https://github.com/tensorflow/probability)
 ---
 Quarto template Text!
