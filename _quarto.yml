@@ -16,10 +16,6 @@ website:
         text: Key Features and explanation
       - href: index.qmd#Code-Examples
         text: Code Examples
-      - href: index.qmd#Screenshots
-        text: Screenshots
-      - href: index.qmd#Use-Cases
-        text: Use Cases
       - href: index.qmd#Conclusion
         text: Conclusion
       - href: index.qmd#References-Further-Reading
