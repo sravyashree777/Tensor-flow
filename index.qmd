@@ -121,6 +121,60 @@ import matplotlib.pyplot as plt
 
 tfd = tfp.distributions  # Alias for TensorFlow Probability distributions
 ```
+```py
+# Define a normal distribution with mean=0.0 and stddev=1.0
+normal_dist = tfd.Normal(loc=0.0, scale=1.0)
+
+# Sample 5 values
+samples = normal_dist.sample(5)
+print("random samples:", samples.numpy())
+```
+```py
+# Plot histogram
+plt.figure(figsize=(6, 4))
+plt.hist(samples, bins=5, density=True, color="blue", alpha=0.6, edgecolor="black")
+plt.xlabel("Value")
+plt.ylabel("Frequency")
+plt.title("Histogram for Sample Size = 5")
+plt.show()
+```
+```py
+# Sample 10,000 values
+samples_10000 = normal_dist.sample(10000).numpy()
+
+# Plot histogram
+plt.figure(figsize=(8, 5))
+plt.hist(samples_10000, bins=50, density=True, color="blue", alpha=0.6, edgecolor="black")
+
+# Overlay the theoretical normal distribution
+x = np.linspace(-4, 4, 100)  # X-axis range
+pdf = (1 / np.sqrt(2 * np.pi)) * np.exp(-x**2 / 2)  # Normal PDF formula
+plt.plot(x, pdf, color="red", linewidth=2, label="Theoretical Normal Curve")
+
+plt.xlabel("Value")
+plt.ylabel("Density")
+plt.title("Histogram for Sample Size = 10,000")
+plt.legend()
+plt.show()
+```
+```py
+# Take a smaller number of samples for line plot
+samples_line = normal_dist.sample(100).numpy()
+
+plt.figure(figsize=(8, 5))
+plt.plot(samples_line, marker="o", linestyle="-", color="blue", alpha=0.7, label="Sampled Values")
+plt.axhline(0, color="red", linestyle="--", label="Mean (0)")
+plt.xlabel("Sample Index")
+plt.ylabel("Value")
+plt.title("Line Chart of Normal Distribution Samples")
+plt.legend()
+plt.show()
+```
+
+
+
+
+
 ---
 
 # Screenshots {#Screenshots}
