@@ -123,6 +123,32 @@ This renders TFP scalable, efficient, and simple to use with deep learning model
 
 # Use Cases {#Use-Cases}
 
+## 1. Uncertainty Estimation in ML
+
+TFP quantifies prediction uncertainty in deep learning. Example: In medical imaging, Bayesian networks estimate diagnosis uncertainty.
+
+## 2. Bayesian Neural Networks (BNNs) 
+
+Probabilistic layers model uncertainty in ML. Example: In robotics, BNNs improve decision-making under uncertainty.
+
+## 3. Financial Risk Analysis 
+
+TFP aids in risk estimation via Monte Carlo simulations. Example: Banks model loan default probabilities for credit risk assessment.
+
+## 4. Anomaly Detection 
+
+Probabilistic models detect outliers in data. Example: In cybersecurity, TFP flags fraudulent transactions by modeling normal behavior.
+
+## 5. Time-Series Forecasting 
+
+Probabilistic forecasts provide confidence intervals. Example: Companies predict sales with uncertainty in supply chain management.
+
+## 6.Physics and Engineering Simulations
+
+Probabilistic models are used in complex simulations.
+
+**Example:** In weather forecasting, TFP can model uncertainty in climate pre
+
 ---
 
 # Conclusion {#Conclusion}
