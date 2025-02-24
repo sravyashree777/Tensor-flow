@@ -248,6 +248,39 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li><p>No-U-Turn Sampler (NUTS)</p></li>
 </ul>
 <p><strong>Uses:</strong> MCMC enables the estimation of posterior distributions if direct computation is not feasible, and thus it is a tool for Bayesian inference.</p>
+</section>
+<section id="variational-inference-vi" class="level2">
+<h2 class="anchored" data-anchor-id="variational-inference-vi">4. Variational Inference (VI)</h2>
+<p>Variational inference is an optimization-driven approach for approximating probability distributions. TFP offers mechanisms such as:</p>
+<ul>
+<li><p>Reparameterization Tricks for optimal learning</p></li>
+<li><p>Automatic Differentiation Variational Inference (ADVI)</p></li>
+</ul>
+<p><strong>Uses:</strong> VI is generally quicker than MCMC for big data and is extensively applied in deep learning for Bayesian Neural Networks.</p>
+</section>
+<section id="gaussian-processes-gps" class="level2">
+<h2 class="anchored" data-anchor-id="gaussian-processes-gps">5. Gaussian Processes (GPs)</h2>
+<p>Gaussian Processes are parametric-free models which present uncertainty-informed predictions. With TFP, users can:</p>
+<ul>
+<li><p>Define custom GP regression models</p></li>
+<li><p>Use kernel functions like Radial Basis Function (RBF)</p></li>
+</ul>
+<p><strong>Uses:</strong> GPs are excellent for time-series prediction, spatial modeling, and reinforcement learning, where uncertainty is important.</p>
+</section>
+<section id="joint-probability-distributions" class="level2">
+<h2 class="anchored" data-anchor-id="joint-probability-distributions">6. Joint Probability Distributions</h2>
+<p>TFP facilitates the construction of joint distributions with the JointDistribution module, which assists in modeling interdependencies among several variables.</p>
+<p><strong>Uses:</strong> Critical to probabilistic graphical models, hidden Markov models, and structured probabilistic modeling.</p>
+</section>
+<section id="tensorflow-integration" class="level2">
+<h2 class="anchored" data-anchor-id="tensorflow-integration">7. TensorFlow Integration</h2>
+<p>Because TFP is developed based on TensorFlow, it takes advantage of:</p>
+<ul>
+<li><p>GPU acceleration for faster computations</p></li>
+<li><p>Automatic differentiation for gradient-based optimization</p></li>
+<li><p>Seamless integration with TensorFlow models</p></li>
+</ul>
+<p>**Uses:* This renders TFP scalable, efficient, and simple to use with deep learning models.</p>
 <hr>
 </section>
 </section>

@@ -61,5 +61,33 @@
     "title": "Tensor flow probability",
     "section": "3. Markov Chain Monte Carlo (MCMC)",
     "text": "3. Markov Chain Monte Carlo (MCMC)\nMCMC is a sampling algorithm for complex probability distributions. TFP offers fast implementations such as:\n\nHamiltonian Monte Carlo (HMC)\nNo-U-Turn Sampler (NUTS)\n\nUses: MCMC enables the estimation of posterior distributions if direct computation is not feasible, and thus it is a tool for Bayesian inference."
+  },
+  {
+    "objectID": "index.html#variational-inference-vi",
+    "href": "index.html#variational-inference-vi",
+    "title": "Tensor flow probability",
+    "section": "4. Variational Inference (VI)",
+    "text": "4. Variational Inference (VI)\nVariational inference is an optimization-driven approach for approximating probability distributions. TFP offers mechanisms such as:\n\nReparameterization Tricks for optimal learning\nAutomatic Differentiation Variational Inference (ADVI)\n\nUses: VI is generally quicker than MCMC for big data and is extensively applied in deep learning for Bayesian Neural Networks."
+  },
+  {
+    "objectID": "index.html#gaussian-processes-gps",
+    "href": "index.html#gaussian-processes-gps",
+    "title": "Tensor flow probability",
+    "section": "5. Gaussian Processes (GPs)",
+    "text": "5. Gaussian Processes (GPs)\nGaussian Processes are parametric-free models which present uncertainty-informed predictions. With TFP, users can:\n\nDefine custom GP regression models\nUse kernel functions like Radial Basis Function (RBF)\n\nUses: GPs are excellent for time-series prediction, spatial modeling, and reinforcement learning, where uncertainty is important."
+  },
+  {
+    "objectID": "index.html#joint-probability-distributions",
+    "href": "index.html#joint-probability-distributions",
+    "title": "Tensor flow probability",
+    "section": "6. Joint Probability Distributions",
+    "text": "6. Joint Probability Distributions\nTFP facilitates the construction of joint distributions with the JointDistribution module, which assists in modeling interdependencies among several variables.\nUses: Critical to probabilistic graphical models, hidden Markov models, and structured probabilistic modeling."
+  },
+  {
+    "objectID": "index.html#tensorflow-integration",
+    "href": "index.html#tensorflow-integration",
+    "title": "Tensor flow probability",
+    "section": "7. TensorFlow Integration",
+    "text": "7. TensorFlow Integration\nBecause TFP is developed based on TensorFlow, it takes advantage of:\n\nGPU acceleration for faster computations\nAutomatic differentiation for gradient-based optimization\nSeamless integration with TensorFlow models\n\n**Uses:* This renders TFP scalable, efficient, and simple to use with deep learning models."
   }
 ]
