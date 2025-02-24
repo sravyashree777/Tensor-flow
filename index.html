@@ -209,6 +209,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h1>Installation &amp; Setup</h1>
 <p>Install the latest version of TensorFlow Probability:</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode py code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>pip install <span class="op">--</span>upgrade tensorflow<span class="op">-</span>probability</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>the other way to intall it is ## Install from source</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode py code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>  sudo apt<span class="op">-</span>get install bazel git python<span class="op">-</span>pip</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>  python <span class="op">-</span>m pip install <span class="op">--</span>upgrade <span class="op">--</span>user tf<span class="op">-</span>nightly</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>  git clone https:<span class="op">//</span>github.com<span class="op">/</span>tensorflow<span class="op">/</span>probability.git</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>  cd probability</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>  bazel build <span class="op">--</span>copt<span class="op">=-</span>O3 <span class="op">--</span>copt<span class="op">=-</span>march<span class="op">=</span>native :pip_pkg</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>  PKGDIR<span class="op">=</span>$(mktemp <span class="op">-</span>d)</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>  .<span class="op">/</span>bazel<span class="op">-</span><span class="bu">bin</span><span class="op">/</span>pip_pkg $PKGDIR</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>  python <span class="op">-</span>m pip install <span class="op">--</span>upgrade <span class="op">--</span>user $PKGDIR<span class="op">/*</span>.whl</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <hr>
 </section>
 <section id="Key-Features-Explanation" class="level1">
