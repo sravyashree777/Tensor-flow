@@ -33,5 +33,12 @@
     "title": "Tensor flow probability",
     "section": "",
     "text": "A Powerful Library for Probabilistic Modeling and Inference"
+  },
+  {
+    "objectID": "index.html#install-from-source",
+    "href": "index.html#install-from-source",
+    "title": "Tensor flow probability",
+    "section": "Install from source",
+    "text": "Install from source\n  sudo apt-get install bazel git python-pip\n  python -m pip install --upgrade --user tf-nightly\n  git clone https://github.com/tensorflow/probability.git\n  cd probability\n  bazel build --copt=-O3 --copt=-march=native :pip_pkg\n  PKGDIR=$(mktemp -d)\n  ./bazel-bin/pip_pkg $PKGDIR\n  python -m pip install --upgrade --user $PKGDIR/*.whl"
   }
 ]
