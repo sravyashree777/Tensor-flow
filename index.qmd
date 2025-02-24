@@ -244,6 +244,6 @@ Its native integration with TensorFlow provides scalability, GPU acceleration, a
 
 [TFP distributions](https://www.tensorflow.org/probability/examples/TensorFlow_Distributions_Tutorial)
 
-[GitHub Repository for TensorFlow Probability](https://github.com/tensorflow/probability)
+[TensorFlow Probability: Learning with confidence](https://www.youtube.com/watch?v=BrwKURU-wpk)
 ---
 Quarto template Text!
