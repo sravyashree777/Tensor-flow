@@ -89,5 +89,47 @@
     "title": "Tensor flow probability",
     "section": "7. TensorFlow Integration",
     "text": "7. TensorFlow Integration\nBecause TFP is developed based on TensorFlow, it takes advantage of:\n\nGPU acceleration for faster computations\nAutomatic differentiation for gradient-based optimization\nSeamless integration with TensorFlow models\n\nUses: This renders TFP scalable, efficient, and simple to use with deep learning models."
+  },
+  {
+    "objectID": "index.html#uncertainty-estimation-in-ml",
+    "href": "index.html#uncertainty-estimation-in-ml",
+    "title": "Tensor flow probability",
+    "section": "1. Uncertainty Estimation in ML",
+    "text": "1. Uncertainty Estimation in ML\nTFP quantifies prediction uncertainty in deep learning. Example: In medical imaging, Bayesian networks estimate diagnosis uncertainty."
+  },
+  {
+    "objectID": "index.html#bayesian-neural-networks-bnns",
+    "href": "index.html#bayesian-neural-networks-bnns",
+    "title": "Tensor flow probability",
+    "section": "2. Bayesian Neural Networks (BNNs)",
+    "text": "2. Bayesian Neural Networks (BNNs)\nProbabilistic layers model uncertainty in ML. Example: In robotics, BNNs improve decision-making under uncertainty."
+  },
+  {
+    "objectID": "index.html#financial-risk-analysis",
+    "href": "index.html#financial-risk-analysis",
+    "title": "Tensor flow probability",
+    "section": "3. Financial Risk Analysis",
+    "text": "3. Financial Risk Analysis\nTFP aids in risk estimation via Monte Carlo simulations. Example: Banks model loan default probabilities for credit risk assessment."
+  },
+  {
+    "objectID": "index.html#anomaly-detection",
+    "href": "index.html#anomaly-detection",
+    "title": "Tensor flow probability",
+    "section": "4. Anomaly Detection",
+    "text": "4. Anomaly Detection\nProbabilistic models detect outliers in data. Example: In cybersecurity, TFP flags fraudulent transactions by modeling normal behavior."
+  },
+  {
+    "objectID": "index.html#time-series-forecasting",
+    "href": "index.html#time-series-forecasting",
+    "title": "Tensor flow probability",
+    "section": "5. Time-Series Forecasting",
+    "text": "5. Time-Series Forecasting\nProbabilistic forecasts provide confidence intervals. Example: Companies predict sales with uncertainty in supply chain management."
+  },
+  {
+    "objectID": "index.html#physics-and-engineering-simulations",
+    "href": "index.html#physics-and-engineering-simulations",
+    "title": "Tensor flow probability",
+    "section": "6.Physics and Engineering Simulations",
+    "text": "6.Physics and Engineering Simulations\nProbabilistic models are used in complex simulations.\nExample: In weather forecasting, TFP can model uncertainty in climate pre"
   }
 ]
