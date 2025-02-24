@@ -239,6 +239,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h2 class="anchored" data-anchor-id="bayesian-inference">2. Bayesian Inference</h2>
 <p>Bayesian inference updates belief from data based on observations applying Bayes’ Theorem. TFP makes available such tools as Bayesian Neural Networks (BNNs) to use in deep learning the uncertainty.</p>
 <p><strong>Uses:</strong> As opposed to other neural networks that yield point estimates, Bayesian models in TFP produce probability distributions over outcomes, enhancing decision-making in environments where there is uncertainty.</p>
+</section>
+<section id="markov-chain-monte-carlo-mcmc" class="level2">
+<h2 class="anchored" data-anchor-id="markov-chain-monte-carlo-mcmc">3. Markov Chain Monte Carlo (MCMC)</h2>
+<p>MCMC is a sampling algorithm for complex probability distributions. TFP offers fast implementations such as:</p>
+<ul>
+<li><p>Hamiltonian Monte Carlo (HMC)</p></li>
+<li><p>No-U-Turn Sampler (NUTS)</p></li>
+</ul>
+<p><strong>Uses:</strong> MCMC enables the estimation of posterior distributions if direct computation is not feasible, and thus it is a tool for Bayesian inference.</p>
 <hr>
 </section>
 </section>

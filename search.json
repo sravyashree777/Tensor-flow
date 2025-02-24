@@ -54,5 +54,12 @@
     "title": "Tensor flow probability",
     "section": "2. Bayesian Inference",
     "text": "2. Bayesian Inference\nBayesian inference updates belief from data based on observations applying Bayes’ Theorem. TFP makes available such tools as Bayesian Neural Networks (BNNs) to use in deep learning the uncertainty.\nUses: As opposed to other neural networks that yield point estimates, Bayesian models in TFP produce probability distributions over outcomes, enhancing decision-making in environments where there is uncertainty."
+  },
+  {
+    "objectID": "index.html#markov-chain-monte-carlo-mcmc",
+    "href": "index.html#markov-chain-monte-carlo-mcmc",
+    "title": "Tensor flow probability",
+    "section": "3. Markov Chain Monte Carlo (MCMC)",
+    "text": "3. Markov Chain Monte Carlo (MCMC)\nMCMC is a sampling algorithm for complex probability distributions. TFP offers fast implementations such as:\n\nHamiltonian Monte Carlo (HMC)\nNo-U-Turn Sampler (NUTS)\n\nUses: MCMC enables the estimation of posterior distributions if direct computation is not feasible, and thus it is a tool for Bayesian inference."
   }
 ]
