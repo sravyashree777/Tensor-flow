@@ -21,7 +21,9 @@ Install the latest version of TensorFlow Probability:
 pip install --upgrade tensorflow-probability
 ```
 the other way to intall it is
+
 ## Install from source
+
 ```py
   sudo apt-get install bazel git python-pip
   python -m pip install --upgrade --user tf-nightly
