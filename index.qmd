@@ -68,6 +68,48 @@ MCMC is a sampling algorithm for complex probability distributions. TFP offers f
 
 **Uses:** 
 MCMC enables the estimation of posterior distributions if direct computation is not feasible, and thus it is a tool for Bayesian inference.
+
+##  4. Variational Inference (VI)
+
+Variational inference is an optimization-driven approach for approximating probability distributions. TFP offers mechanisms such as:
+
+* Reparameterization Tricks for optimal learning
+
+* Automatic Differentiation Variational Inference (ADVI)
+
+**Uses:**
+VI is generally quicker than MCMC for big data and is extensively applied in deep learning for Bayesian Neural Networks.
+
+## 5. Gaussian Processes (GPs)
+
+Gaussian Processes are parametric-free models which present uncertainty-informed predictions. With TFP, users can:
+
+* Define custom GP regression models
+
+* Use kernel functions like Radial Basis Function (RBF)
+
+**Uses:**
+GPs are excellent for time-series prediction, spatial modeling, and reinforcement learning, where uncertainty is important.
+
+## 6. Joint Probability Distributions
+
+TFP facilitates the construction of joint distributions with the JointDistribution module, which assists in modeling interdependencies among several variables.
+
+**Uses:**
+Critical to probabilistic graphical models, hidden Markov models, and structured probabilistic modeling.
+
+## 7. TensorFlow Integration
+
+Because TFP is developed based on TensorFlow, it takes advantage of:
+
+* GPU acceleration for faster computations
+
+* Automatic differentiation for gradient-based optimization
+
+* Seamless integration with TensorFlow models
+
+**Uses:*
+This renders TFP scalable, efficient, and simple to use with deep learning models.
 ---
 
 # Code Examples {#Code-Examples}
