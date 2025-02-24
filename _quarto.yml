@@ -5,7 +5,7 @@ project:
 website:
   title: "Quarto Template"
   navbar:
-  right:
+    right:
       - href: index.qmd#Title
         text: Title
       - href: index.qmd#Introduction
