@@ -20,8 +20,18 @@ Install the latest version of TensorFlow Probability:
 ```py
 pip install --upgrade tensorflow-probability
 ```
-
-
+the other way to intall it is
+## Install from source
+```py
+  sudo apt-get install bazel git python-pip
+  python -m pip install --upgrade --user tf-nightly
+  git clone https://github.com/tensorflow/probability.git
+  cd probability
+  bazel build --copt=-O3 --copt=-march=native :pip_pkg
+  PKGDIR=$(mktemp -d)
+  ./bazel-bin/pip_pkg $PKGDIR
+  python -m pip install --upgrade --user $PKGDIR/*.whl
+```
 ---
 
 # Key Features & Explanation {#Key-Features-Explanation}
