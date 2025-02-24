@@ -38,7 +38,7 @@ the other way to intall it is
 
 # Key Features & Explanation {#Key-Features-Explanation}
 
-## Probability Distributions
+## 1.Probability Distributions
 
 TFP provides extensive support for built-in probability distributions, such as:
 
@@ -47,6 +47,9 @@ TFP provides extensive support for built-in probability distributions, such as:
 * **Continuous Distributions:** Normal (Gaussian), Exponential, Beta, Gamma
 
 * **Multivariate Distributions:** Multivariate Normal, Dirichlet
+
+**Uses**
+These distributions assist in the characterization of random variables, representation of uncertainties, and probabilistic calculations.
 
 ---
 
