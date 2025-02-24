@@ -46,6 +46,13 @@
     "href": "index.html#probability-distributions",
     "title": "Tensor flow probability",
     "section": "1.Probability Distributions",
-    "text": "1.Probability Distributions\nTFP provides extensive support for built-in probability distributions, such as:\n\nDiscrete Distributions: Bernoulli, Categorical, Poisson\nContinuous Distributions: Normal (Gaussian), Exponential, Beta, Gamma\nMultivariate Distributions: Multivariate Normal, Dirichlet\n\nUses:\nThese distributions assist in the characterization of random variables, representation of uncertainties, and probabilistic calculations."
+    "text": "1.Probability Distributions\nTFP provides extensive support for built-in probability distributions, such as:\n\nDiscrete Distributions: Bernoulli, Categorical, Poisson\nContinuous Distributions: Normal (Gaussian), Exponential, Beta, Gamma\nMultivariate Distributions: Multivariate Normal, Dirichlet\n\nUses: These distributions assist in the characterization of random variables, representation of uncertainties, and probabilistic calculations."
+  },
+  {
+    "objectID": "index.html#bayesian-inference",
+    "href": "index.html#bayesian-inference",
+    "title": "Tensor flow probability",
+    "section": "2. Bayesian Inference",
+    "text": "2. Bayesian Inference\nBayesian inference updates belief from data based on observations applying Bayes’ Theorem. TFP makes available such tools as Bayesian Neural Networks (BNNs) to use in deep learning the uncertainty.\nUses: As opposed to other neural networks that yield point estimates, Bayesian models in TFP produce probability distributions over outcomes, enhancing decision-making in environments where there is uncertainty."
   }
 ]
