@@ -215,6 +215,7 @@ The points will be centered around the line y=2x but with some random variation
 ![screenshot](https://github.com/sravyashree777/Tensor-flow/blob/master/Screenshot%202025-02-25%20202630.png?raw=true)
 ![screenshot](https://github.com/sravyashree777/Tensor-flow/blob/master/Screenshot%202025-02-25%20202815.png?raw=true)
 ![screenshot](https://github.com/sravyashree777/Tensor-flow/blob/master/Screenshot%202025-02-25%20202948.png?raw=true)
+![screenshot](https://github.com/sravyashree777/Tensor-flow/blob/master/Screenshot%202025-02-25%20203020.png?raw=true)
 
 ---
 
