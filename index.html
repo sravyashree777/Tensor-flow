@@ -292,14 +292,18 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
 <span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>tfd <span class="op">=</span> tfp.distributions  <span class="co"># Alias for TensorFlow Probability distributions</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>tensorflow_probability (TFP) is imported for working with probabilistic models. tensorflow (TF) is imported since TFP works on top of TensorFlow. tfd = tfp.distributions is an alias that makes it easier to access distributions.</p>
+<p>tensorflow_probability (TFP) is imported for working with probabilistic models.</p>
+<p>tensorflow (TF) is imported since TFP works on top of TensorFlow.</p>
+<p>tfd = tfp.distributions is an alias that makes it easier to access distributions.</p>
 <div class="sourceCode" id="cb4"><pre class="sourceCode py code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Define a normal distribution with mean=0.0 and stddev=1.0</span></span>
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>normal_dist <span class="op">=</span> tfd.Normal(loc<span class="op">=</span><span class="fl">0.0</span>, scale<span class="op">=</span><span class="fl">1.0</span>)</span>
 <span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Sample 5 values</span></span>
 <span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>samples <span class="op">=</span> normal_dist.sample(<span class="dv">5</span>)</span>
 <span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">"random samples:"</span>, samples.numpy())</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>tfd.Normal(loc=0., scale=1.) defines a normal distribution with: Mean (loc) = 0.0, Standard deviation (scale) = 1.0 normal_dist.sample(5) generates 5 random samples from this normal distribution. samples.numpy() converts the TensorFlow tensor to a NumPy array for easy reading.</p>
+<p>tfd.Normal(loc=0., scale=1.) defines a normal distribution with: Mean (loc) = 0.0, Standard deviation (scale) = 1.0</p>
+<p>normal_dist.sample(5) generates 5 random samples from this normal distribution.</p>
+<p>samples.numpy() converts the TensorFlow tensor to a NumPy array for easy reading.</p>
 <div class="sourceCode" id="cb5"><pre class="sourceCode py code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot histogram</span></span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">6</span>, <span class="dv">4</span>))</span>
 <span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>plt.hist(samples, bins<span class="op">=</span><span class="dv">5</span>, density<span class="op">=</span><span class="va">True</span>, color<span class="op">=</span><span class="st">"blue"</span>, alpha<span class="op">=</span><span class="fl">0.6</span>, edgecolor<span class="op">=</span><span class="st">"black"</span>)</span>
@@ -325,7 +329,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb6-15"><a href="#cb6-15" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">"Histogram for Sample Size = 10,000"</span>)</span>
 <span id="cb6-16"><a href="#cb6-16" aria-hidden="true" tabindex="-1"></a>plt.legend()</span>
 <span id="cb6-17"><a href="#cb6-17" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>The histogram will have many bins, creating a smooth bell curve. It will closely match the true normal distribution, proving the Law of Large Numbers. The sample mean will be very close to 0, and most values will lie within -3 to +3 standard deviations. The histogram shows that most values are clustered around the mean of 0, with fewer values appearing as we move away. This bell-shaped curve is a key feature of the normal distribution.</p>
+<p>The histogram will have many bins, creating a smooth bell curve. It will closely match the true normal distribution, proving the Law of Large Numbers. The sample mean will be very close to 0, and most values will lie within -3 to +3 standard deviations.</p>
+<p>The histogram shows that most values are clustered around the mean of 0, with fewer values appearing as we move away. This bell-shaped curve is a key feature of the normal distribution.</p>
 <div class="sourceCode" id="cb7"><pre class="sourceCode py code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Take a smaller number of samples for line plot</span></span>
 <span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>samples_line <span class="op">=</span> normal_dist.sample(<span class="dv">100</span>).numpy()</span>
 <span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a></span>
@@ -337,11 +342,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">"Line Chart of Normal Distribution Samples"</span>)</span>
 <span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a>plt.legend()</span>
 <span id="cb7-11"><a href="#cb7-11" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>A zig-zagging line plot showing how sampled values fluctuate around the mean 0.</p>
 <div class="sourceCode" id="cb8"><pre class="sourceCode py code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Probability density function (PDF) at a specific value</span></span>
 <span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">"Probability of 0:"</span>, normal_dist.prob(<span class="fl">0.</span>).numpy())</span>
 <span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Log probability is often used in machine learning</span></span>
 <span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">"Log probability of 0:"</span>, normal_dist.log_prob(<span class="fl">0.</span>).numpy())</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>prob(x) calculates the probability density function (PDF) of the distribution at x. For a standard normal distribution 𝑁(0,1)</p>
+<p>P(0)= 0.398 log P(0)= −0.9189</p>
 <div class="sourceCode" id="cb9"><pre class="sourceCode py code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Generate synthetic data</span></span>
 <span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>np.random.seed(<span class="dv">42</span>)</span>
 <span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>x_train <span class="op">=</span> np.linspace(<span class="op">-</span><span class="dv">3</span>, <span class="dv">3</span>, <span class="dv">100</span>).astype(np.float32)</span>
