@@ -91,6 +91,13 @@
     "text": "7. TensorFlow Integration\nBecause TFP is developed based on TensorFlow, it takes advantage of:\n\nGPU acceleration for faster computations\nAutomatic differentiation for gradient-based optimization\nSeamless integration with TensorFlow models\n\nUses: This renders TFP scalable, efficient, and simple to use with deep learning models."
   },
   {
+    "objectID": "index.html#s1",
+    "href": "index.html#s1",
+    "title": "Tensor flow probability",
+    "section": "s1",
+    "text": "s1"
+  },
+  {
     "objectID": "index.html#uncertainty-estimation-in-ml",
     "href": "index.html#uncertainty-estimation-in-ml",
     "title": "Tensor flow probability",
