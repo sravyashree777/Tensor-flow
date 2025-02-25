@@ -195,7 +195,9 @@ plt.show()
 
 # Screenshots {#Screenshots}
 
-![screenshot1](https://github.com/sravyashree777/Tensor-flow/blob/master/Screenshot%202025-02-25%20193923.png?raw=true)
+## s1
+
+![](https://github.com/sravyashree777/Tensor-flow/blob/master/Screenshot%202025-02-25%20193923.png?raw=true)
 ---
 
 # Use Cases {#Use-Cases}
