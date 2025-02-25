@@ -122,7 +122,9 @@ import matplotlib.pyplot as plt
 tfd = tfp.distributions  # Alias for TensorFlow Probability distributions
 ```
 tensorflow_probability (TFP) is imported for working with probabilistic models.
+
 tensorflow (TF) is imported since TFP works on top of TensorFlow.
+
 tfd = tfp.distributions is an alias that makes it easier to access distributions.
 ```py
 # Define a normal distribution with mean=0.0 and stddev=1.0
@@ -133,7 +135,9 @@ samples = normal_dist.sample(5)
 print("random samples:", samples.numpy())
 ```
 tfd.Normal(loc=0., scale=1.) defines a normal distribution with: Mean (loc) = 0.0, Standard deviation (scale) = 1.0
+
 normal_dist.sample(5) generates 5 random samples from this normal distribution.
+
 samples.numpy() converts the TensorFlow tensor to a NumPy array for easy reading.
 ```py
 # Plot histogram
@@ -166,6 +170,7 @@ plt.legend()
 plt.show()
 ```
 The histogram will have many bins, creating a smooth bell curve. It will closely match the true normal distribution, proving the Law of Large Numbers. The sample mean will be very close to 0, and most values will lie within -3 to +3 standard deviations.
+
 The histogram shows that most values are clustered around the mean of 0, with fewer values appearing as we move away. This bell-shaped curve is a key feature of the normal distribution.
 ```py
 # Take a smaller number of samples for line plot
@@ -180,6 +185,7 @@ plt.title("Line Chart of Normal Distribution Samples")
 plt.legend()
 plt.show()
 ```
+A zig-zagging line plot showing how sampled values fluctuate around the mean 0.
 ```py
 # Probability density function (PDF) at a specific value
 print("Probability of 0:", normal_dist.prob(0.).numpy())
@@ -187,6 +193,10 @@ print("Probability of 0:", normal_dist.prob(0.).numpy())
 # Log probability is often used in machine learning
 print("Log probability of 0:", normal_dist.log_prob(0.).numpy())
 ```
+prob(x) calculates the probability density function (PDF) of the distribution at x. For a standard normal distribution 𝑁(0,1)
+
+P(0)= 0.398
+log P(0)= −0.9189
 ```py
 # Generate synthetic data
 np.random.seed(42)
