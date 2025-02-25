@@ -121,6 +121,9 @@ import matplotlib.pyplot as plt
 
 tfd = tfp.distributions  # Alias for TensorFlow Probability distributions
 ```
+tensorflow_probability (TFP) is imported for working with probabilistic models.
+tensorflow (TF) is imported since TFP works on top of TensorFlow.
+tfd = tfp.distributions is an alias that makes it easier to access distributions.
 ```py
 # Define a normal distribution with mean=0.0 and stddev=1.0
 normal_dist = tfd.Normal(loc=0.0, scale=1.0)
@@ -129,6 +132,9 @@ normal_dist = tfd.Normal(loc=0.0, scale=1.0)
 samples = normal_dist.sample(5)
 print("random samples:", samples.numpy())
 ```
+tfd.Normal(loc=0., scale=1.) defines a normal distribution with: Mean (loc) = 0.0, Standard deviation (scale) = 1.0
+normal_dist.sample(5) generates 5 random samples from this normal distribution.
+samples.numpy() converts the TensorFlow tensor to a NumPy array for easy reading.
 ```py
 # Plot histogram
 plt.figure(figsize=(6, 4))
@@ -138,6 +144,8 @@ plt.ylabel("Frequency")
 plt.title("Histogram for Sample Size = 5")
 plt.show()
 ```
+The histogram will have only 5 bars, each representing one of the sampled values. It will look random and uneven, without a clear bell curve. Since the sample size is too small, it does not represent the actual normal distribution well.
+This means the distribution follows a bell curve centered at 0, with values spread according to a standard deviation of 1.
 ```py
 # Sample 10,000 values
 samples_10000 = normal_dist.sample(10000).numpy()
@@ -157,6 +165,8 @@ plt.title("Histogram for Sample Size = 10,000")
 plt.legend()
 plt.show()
 ```
+The histogram will have many bins, creating a smooth bell curve. It will closely match the true normal distribution, proving the Law of Large Numbers. The sample mean will be very close to 0, and most values will lie within -3 to +3 standard deviations.
+The histogram shows that most values are clustered around the mean of 0, with fewer values appearing as we move away. This bell-shaped curve is a key feature of the normal distribution.
 ```py
 # Take a smaller number of samples for line plot
 samples_line = normal_dist.sample(100).numpy()
@@ -195,9 +205,7 @@ plt.show()
 
 # Screenshots {#Screenshots}
 
-## s1
-
-![](https://github.com/sravyashree777/Tensor-flow/blob/master/Screenshot%202025-02-25%20193923.png?raw=true)
+![s1](https://github.com/sravyashree777/Tensor-flow/blob/master/Screenshot%202025-02-25%20193923.png?raw=true)
 ---
 
 # Use Cases {#Use-Cases}
