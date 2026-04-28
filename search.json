@@ -1,31 +1,10 @@
 [
   {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "Quarto Blog",
-    "section": "",
-    "text": "Welcome\n\n\n\n\n\nWelcome Post\n\n\n\n\n\nFeb 14, 2025\n\n\nNipun Batra\n\n\n\n\n\n\n\n\n\n\n\n\nSimple Visualisation\n\n\n\n\n\n\nML\n\n\n\n\n\n\n\n\n\nFeb 14, 2025\n\n\nNipun Batra\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "posts/welcome.html",
-    "href": "posts/welcome.html",
-    "title": "Welcome",
-    "section": "",
-    "text": "Welcome\nHello world, this is my first blog post.\nI can write in markdown\nprint(\"Hello World\")\nI can also write math equations:\n\\[\ny = x^2\n\\]\nI can create lists easily:\n\nOne\nTwo\n\nI can also create numbered lists:\n\nOne\nTwo\n\nOr, create a table:\n\n\n\nName\nAge\n\n\n\n\nAlice\n20\n\n\nBob\n21"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
+    "objectID": "index.html#in-conventional-deep-learning-models-tend-to-produce-deterministic-predictions-where-they-provide-one-value-without-considering-uncertainty.-yet-in-real-world-domains-such-as-finance-medicine-and-robotics-uncertainty-matters.-tensorflow-probability-assists-by-making-probabilistic-reasoning-possible-which-enables-models-to-provide-estimates-of-confidence-levels-and-make-better-informed-decisions.",
+    "href": "index.html#in-conventional-deep-learning-models-tend-to-produce-deterministic-predictions-where-they-provide-one-value-without-considering-uncertainty.-yet-in-real-world-domains-such-as-finance-medicine-and-robotics-uncertainty-matters.-tensorflow-probability-assists-by-making-probabilistic-reasoning-possible-which-enables-models-to-provide-estimates-of-confidence-levels-and-make-better-informed-decisions.",
     "title": "Tensor flow probability",
-    "section": "",
-    "text": "A Powerful Library for Probabilistic Modeling and Inference"
-  },
-  {
-    "objectID": "index.html#tensorflow-probability",
-    "href": "index.html#tensorflow-probability",
-    "title": "Tensor flow probability",
-    "section": "",
-    "text": "A Powerful Library for Probabilistic Modeling and Inference"
+    "section": "In conventional deep learning, models tend to produce deterministic predictions, where they provide one value without considering uncertainty. Yet in real-world domains such as finance, medicine, and robotics, uncertainty matters. TensorFlow Probability assists by making probabilistic reasoning possible, which enables models to provide estimates of confidence levels and make better-informed decisions.",
+    "text": "In conventional deep learning, models tend to produce deterministic predictions, where they provide one value without considering uncertainty. Yet in real-world domains such as finance, medicine, and robotics, uncertainty matters. TensorFlow Probability assists by making probabilistic reasoning possible, which enables models to provide estimates of confidence levels and make better-informed decisions."
   },
   {
     "objectID": "index.html#install-from-source",
@@ -81,7 +60,7 @@
     "href": "index.html#tensorflow-integration",
     "title": "Tensor flow probability",
     "section": "7. TensorFlow Integration",
-    "text": "7. TensorFlow Integration\nBecause TFP is developed based on TensorFlow, it takes advantage of:\n\nGPU acceleration for faster computations\nAutomatic differentiation for gradient-based optimization\nSeamless integration with TensorFlow models\n\nUses: This renders TFP scalable, efficient, and simple to use with deep learning models."
+    "text": "7. TensorFlow Integration\nBecause TFP is developed based on TensorFlow, it takes advantage of:\n\nGPU acceleration for faster computations\nAutomatic differentiation for gradient-based optimization\nSeamless integration with TensorFlow models\n\nUses: This renders TFP scalable, efficient, and simple to use with deep learning models. —"
   },
   {
     "objectID": "index.html#uncertainty-estimation-in-ml",
@@ -126,10 +105,38 @@
     "text": "6.Physics and Engineering Simulations\nProbabilistic models are used in complex simulations.\nExample: In weather forecasting, TFP can model uncertainty in climate pre"
   },
   {
+    "objectID": "index.html#its-native-integration-with-tensorflow-provides-scalability-gpu-acceleration-and-automatic-differentiation-which-makes-it-applicable-to-real-world-problems-in-finance-healthcare-ai-research-and-deep-learning.-for-uncertainty-estimation-bayesian-deep-learning-or-probabilistic-forecasting-tensorflow-probability-provides-a-vital-toolkit-for-contemporary-probabilistic-machine-learning.",
+    "href": "index.html#its-native-integration-with-tensorflow-provides-scalability-gpu-acceleration-and-automatic-differentiation-which-makes-it-applicable-to-real-world-problems-in-finance-healthcare-ai-research-and-deep-learning.-for-uncertainty-estimation-bayesian-deep-learning-or-probabilistic-forecasting-tensorflow-probability-provides-a-vital-toolkit-for-contemporary-probabilistic-machine-learning.",
+    "title": "Tensor flow probability",
+    "section": "Its native integration with TensorFlow provides scalability, GPU acceleration, and automatic differentiation, which makes it applicable to real-world problems in finance, healthcare, AI research, and deep learning. For uncertainty estimation, Bayesian deep learning, or probabilistic forecasting, TensorFlow Probability provides a vital toolkit for contemporary probabilistic machine learning.",
+    "text": "Its native integration with TensorFlow provides scalability, GPU acceleration, and automatic differentiation, which makes it applicable to real-world problems in finance, healthcare, AI research, and deep learning. For uncertainty estimation, Bayesian deep learning, or probabilistic forecasting, TensorFlow Probability provides a vital toolkit for contemporary probabilistic machine learning."
+  },
+  {
+    "objectID": "index.html#tensorflow-probability-learning-with-confidence",
+    "href": "index.html#tensorflow-probability-learning-with-confidence",
+    "title": "Tensor flow probability",
+    "section": "TensorFlow Probability: Learning with confidence",
+    "text": "TensorFlow Probability: Learning with confidence\nQuarto template Text!"
+  },
+  {
     "objectID": "posts/visualisation.html",
     "href": "posts/visualisation.html",
     "title": "Simple Visualisation",
     "section": "",
     "text": "import numpy as np\nimport matplotlib.pyplot as plt\n%matplotlib inline\n%config InlineBackend.figure_format = 'retina'\n\n\nx = np.linspace(0, 10, 100)\ny = np.sin(x)\n\nplt.plot(x, y)"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Quarto Blog",
+    "section": "",
+    "text": "Simple Visualisation\n\n\n\nML\n\n\n\n\n\n\n\n\n\nFeb 14, 2025\n\n\nNipun Batra\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome\n\n\nWelcome Post\n\n\n\n\n\nFeb 14, 2025\n\n\nNipun Batra\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/welcome.html",
+    "href": "posts/welcome.html",
+    "title": "Welcome",
+    "section": "",
+    "text": "Welcome\nHello world, this is my first blog post.\nI can write in markdown\nprint(\"Hello World\")\nI can also write math equations:\n\\[\ny = x^2\n\\]\nI can create lists easily:\n\nOne\nTwo\n\nI can also create numbered lists:\n\nOne\nTwo\n\nOr, create a table:\n\n\n\nName\nAge\n\n\n\n\nAlice\n20\n\n\nBob\n21"
   }
 ]

@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://sravyashree777.github.io/Tensor-flow/blog.html</loc>
-    <lastmod>2025-02-25T16:15:21.589Z</lastmod>
-  </url>
-  <url>
-    <loc>https://sravyashree777.github.io/Tensor-flow/posts/welcome.html</loc>
-    <lastmod>2025-02-25T16:15:21.589Z</lastmod>
-  </url>
-  <url>
     <loc>https://sravyashree777.github.io/Tensor-flow/index.html</loc>
-    <lastmod>2025-02-25T16:15:21.589Z</lastmod>
+    <lastmod>2026-04-28T05:41:30.330Z</lastmod>
   </url>
   <url>
     <loc>https://sravyashree777.github.io/Tensor-flow/posts/visualisation.html</loc>
-    <lastmod>2025-02-25T16:15:21.589Z</lastmod>
+    <lastmod>2026-04-28T05:41:30.331Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sravyashree777.github.io/Tensor-flow/blog.html</loc>
+    <lastmod>2026-04-28T05:41:30.330Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sravyashree777.github.io/Tensor-flow/posts/welcome.html</loc>
+    <lastmod>2026-04-28T05:41:30.331Z</lastmod>
   </url>
 </urlset>
